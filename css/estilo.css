@@ -1,91 +1,99 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
-body{
-    color: rgb(0, 0, 0);
+body {
+    /* color: rgb(0, 0, 0);
     background-image: url(../imagenes/katafondofinal.jfif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    
+    background-attachment: fixed; */
+    /* background-image: 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: black;
+
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
 }
 
 
 
-h1{
+h1 {
     text-align: center;
     color: cornsilk;
     text-decoration: underline;
     margin: 60px;
 }
 
-li{
+/* li{
     display: inline-block;
     margin: 10px 10px;
     
-}
+} */
 
 
-main{
+main {
     margin: 20px;
     padding: 20px;
-    
+
 }
 
 /* subtitulo 2 */
-.tamaño2{
+.tamaño2 {
     font-size: 40px;
     color: cornsilk;
 }
 
 /* parrafo pagina principal  */
 .parrafo1 {
-    color: rgb(95, 167, 161);
-margin: 20px;
-font-size: 20px;
+    color: rgb(246, 213, 173);
+    margin: 20px;
+    font-size: 20px;
 }
 
 /* Footer */
-.lineafooter{
-    margin-left: 500px;
+.lineafooter {
+    /* margin-left: 500px; */
+    margin: auto;
     width: 50%;
     height: 2px;
     background-color: silver;
 
 }
-.h4index{
+
+.h4index {
     color: cornsilk;
     text-align: center;
     font-size: 50px;
-    
+
 }
 
 /* Formulario de contacto */
-.nombremenu{
+.nombremenu {
     color: white;
     padding-left: 20px;
 }
 
-.textarea{
+.textarea {
     padding-right: 20px;
 }
 
-.enviar{
+.enviar {
     padding-right: 100px;
 }
 
-.borrar{
-    
+.borrar {
+
     padding-right: 100px;
 }
 
-/* Menu de navegacion */
+/* Menu de navegacion
 #menu ul li a{
     background-color: rgba(34, 130, 157, 0.508);
     padding: 10px;
@@ -100,50 +108,83 @@ font-size: 20px;
 
 #menu ul li a:hover{
     background-color: rgb(241, 109, 109);
-}
+} */
 
 /* Caja de armado de equipos */
 
-.cajaprincipal{
+.cajaprincipal {
     background-color: rgb(136, 0, 255);
     border: 2px;
     height: 700px;
     width: 1000px;
 }
 
-.caja1{
+.caja1 {
     background-color: azure;
     border: 2px;
     height: 100px;
     width: 180px;
 }
 
-.caja2{
-background-color: azure;
-border: 2px;
-height: 100px;
-width: 180px;
-}
-
-.caja3{
+.caja2 {
     background-color: azure;
     border: 2px;
     height: 100px;
     width: 180px;
 }
 
-.caja4{
+.caja3 {
     background-color: azure;
     border: 2px;
     height: 100px;
     width: 180px;
 }
 
-.caja5{
+.caja4 {
     background-color: azure;
     border: 2px;
     height: 100px;
     width: 180px;
 }
 
+.caja5 {
+    background-color: azure;
+    border: 2px;
+    height: 100px;
+    width: 180px;
+}
+
+/* Boostrap nav */
+.navbarnav {
+    background-color: #c9006e;
+
+}
+
+.navlogo {
+    width: 120px;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+li {
     
+    font-size: 20px;
+
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+li:hover {
+    background: linear-gradient(#f571e6, #e4e4d9);
+
+}
+
+
+
+
