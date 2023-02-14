@@ -22,7 +22,41 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Boostrap nav */
+.navbarnav {
+    background-color: #d674ce;
 
+}
+
+.navlogo {
+    width: 120px;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    
+    font-size: 20px;
+
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+ul li a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+li:hover {
+    background: linear-gradient(#f571e6, #e4e4d9);
+
+}
 
 h1 {
     text-align: center;
@@ -31,11 +65,8 @@ h1 {
     margin: 60px;
 }
 
-/* li{
-    display: inline-block;
-    margin: 10px 10px;
-    
-} */
+
+
 
 
 main {
@@ -43,8 +74,59 @@ main {
     padding: 20px;
 
 }
+/* Modificamos el texto y imagen de fondo del index */
+.imagenmastxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenfondo{
+    width: 700px;
+    height: 800px;
+}
+
+@media (max-width: 770px){
+    .imagenmastxt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenfondo{
+        width: 300px;
+        height: 400px;
+    }
+    .navbarnav{
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 1750px){
+    .div1{
+        height: 800px;
+        width: 300px;
+    }
+   
+    .imagenmastxt .div1 .tamaño2{
+        margin: 0;
+
+    
+    }
+}
 
 /* subtitulo 2 */
+.div1{
+    border: 1px solid #d674ce;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tamaño2{
+    margin-bottom: 120px;
+    margin-left: 450px;
+}
 .tamaño2 {
     font-size: 40px;
     color: cornsilk;
@@ -93,96 +175,8 @@ main {
     padding-right: 100px;
 }
 
-/* Menu de navegacion
-#menu ul li a{
-    background-color: rgba(34, 130, 157, 0.508);
-    padding: 10px;
-    color: rgb(255, 255, 255);
-
-}
-
-#menu li{
-    padding: 20px;
-    
-}
-
-#menu ul li a:hover{
-    background-color: rgb(241, 109, 109);
-} */
-
-/* Caja de armado de equipos */
-
-.cajaprincipal {
-    background-color: rgb(136, 0, 255);
-    border: 2px;
-    height: 700px;
-    width: 1000px;
-}
-
-.caja1 {
-    background-color: azure;
-    border: 2px;
-    height: 100px;
-    width: 180px;
-}
-
-.caja2 {
-    background-color: azure;
-    border: 2px;
-    height: 100px;
-    width: 180px;
-}
-
-.caja3 {
-    background-color: azure;
-    border: 2px;
-    height: 100px;
-    width: 180px;
-}
-
-.caja4 {
-    background-color: azure;
-    border: 2px;
-    height: 100px;
-    width: 180px;
-}
-
-.caja5 {
-    background-color: azure;
-    border: 2px;
-    height: 100px;
-    width: 180px;
-}
-
-/* Boostrap nav */
-.navbarnav {
-    background-color: #c9006e;
-
-}
-
-.navlogo {
-    width: 120px;
-    height: 70px;
-}
-
-ul {
+.card{
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-li {
-    
-    font-size: 20px;
-
-    list-style: none;
-    position: relative;
-    display: inline-block;
-}
-
-li:hover {
-    background: linear-gradient(#f571e6, #e4e4d9);
-
 }
 
 
